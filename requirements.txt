@@ -42,6 +42,7 @@ gevent==1.4.0
 glob2==0.6
 greenlet==0.4.15
 grpcio==1.16.1
+gunicorn==19.6.0
 h5py==2.9.0
 heapdict==1.0.0
 html5lib==1.0.1
