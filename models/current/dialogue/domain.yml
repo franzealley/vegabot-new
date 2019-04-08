@@ -1,0 +1,38 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_ask_recipe
+- utter_anything_else
+- customactions.actions.get_recipe
+- get_ingredient_info
+config:
+  store_entities_as_slots: true
+entities:
+- recipe
+- ingredient
+- mealtime
+intents:
+- greeting:
+    use_entities: true
+- get_recipe:
+    use_entities: true
+- get_ingredient_info:
+    use_entities: true
+slots:
+  ingredient:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  mealtime:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  recipe:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_anything_else:
+  - text: Do you need any other information?
+  utter_ask_recipe:
+  - text: Do you want a recipe for tonight?
+  utter_greet:
+  - text: Hello. How are you doing today?

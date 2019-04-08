@@ -1,0 +1,10 @@
+[
+    {
+        "name": "ingredientName",
+        "pattern": "(?i)(\\bmapo\\ tofu\\b|\\bchana\\ masala\\b|\\bsushi\\b|\\bpizza\\b|\\bcheese\\b|\\btacos\\b|\\bspinach\\b|\\bmushrooms\\b|\\bchick\\ peas\\b|\\bbeetroot\\b|\\bradish\\b|\\bbananas\\b|\\bcapers\\b|\\bchips\\b|\\bpotatoes\\b|\\bpotato\\b|\\bbeans\\b|\\bgreen\\ beans\\b|\\bfish\\b|\\bburritos\\b|\\bbananas\\b|\\bcherries\\b|\\btomatos\\b|\\bbeans\\b|\\brice\\b|\\bguacamole\\b|\\bsausage\\b|\\bempanada\\b|\\bbagel\\b|\\btuna\\b|\\bsalmon\\b|\\bbagel\\b|\\blochs\\b|\\blachs\\b|\\bpork\\b|\\bbeer\\b|\\bfries\\b|\\bfrench\\ fries\\b|\\bchips\\b|\\bpotatoes\\b|\\bcheddar\\b|\\bonions\\b|\\bgarlic\\b|\\bchives\\b|\\bcream\\b|\\bcream\\ cheese\\b|\\bsesame\\b|\\bzucchini\\b|\\bpasta\\b|\\bspagetti\\b|\\bsalad\\b|\\bdoner\\b|\\bkebab\\b|\\bdurum\\b|\\bsmoothie\\b|\\bfruit\\b|\\bsquash\\b|\\bmeat\\b|\\bbeef\\b|\\bsalami\\b|\\bsalt\\b|\\bpepper\\b|\\bmixed\\ vegetables\\b|\\btofu\\b|\\bchilis\\b|\\bbeef\\b|\\bbrisket\\b|\\bspring\\ roll\\b|\\bpeking\\ duck\\b|\\bmeat\\b|\\bcheese\\b|\\bolive\\b|\\bchocolate\\b|\\bice\\ cream\\b|\\bcoffee\\b|\\bavocado\\b|\\bgyros\\b|\\bpasta\\b|\\bmeat\\b|\\bvegetable\\b|\\bchick\\ peas\\b)"
+    },
+    {
+        "name": "recipeType",
+        "pattern": "(?i)(\\blunch\\b|\\bdinner\\b|\\bbreakfast\\b|\\bdessert\\b)"
+    }
+]

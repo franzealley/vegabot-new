@@ -1,0 +1,1037 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text":"Hello",
+        "intent":"greeting",
+        "entities":[]
+      },
+      {
+        "text":"Hi",
+        "intent":"greeting",
+        "entities":[]
+      },
+      {
+        "text":"Heya",
+        "intent":"greeting",
+        "entities":[]
+      },
+      {
+        "text":"Hiya",
+        "intent":"greeting",
+        "entities":[]
+      },
+      {
+        "text":"Howdy",
+        "intent":"greeting",
+        "entities":[]
+      },
+      {
+        "text":"Hey there",
+        "intent":"greeting",
+        "entities":[]
+      },
+      {
+        "text":"Aloha",
+        "intent":"greeting",
+        "entities":[]
+      },
+      {
+        "text":"What's up?",
+        "intent":"greeting",
+        "entities":[]
+      },
+      {
+        "text":"Hey Vegabot",
+        "intent":"greeting",
+        "entities":[]
+      },
+      {
+        "text":"Sup",
+        "intent":"greeting",
+        "entities":[]
+      },
+      {
+        "text":"I want a recipe for my lunch",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":23,
+            "end": 29,
+            "value": "lunch",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"I would like a recipe for my lunch",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":29,
+            "end": 34,
+            "value": "lunch",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"I would like a recipe for my breakfast",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":29,
+            "end": 38,
+            "value": "breakfast",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Can you give me a recipe for dinner tonight?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":29,
+            "end":36,
+            "value": "dinner",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Can you give me a recipe for breakfast?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":29,
+            "end":38,
+            "value": "breakfast",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Can you give me a recipe for my dinner tonight?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":32,
+            "end":39,
+            "value": "dinner",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"I don't know what to have for lunch",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":31,
+            "end": 36,
+            "value": "lunch",
+            "entity": "recipeType"
+          }
+        ]
+      },
+       {
+        "text":"I don't know what to have for breakfast",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":31,
+            "end": 39,
+            "value": "breakfast",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"I do not know what to have for lunch",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":32,
+            "end": 37,
+            "value": "lunch",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"I need a recipe for lunch",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":20,
+            "end": 25,
+            "value": "lunch",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"I need a recipe for breakfast",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":20,
+            "end": 29,
+            "value": "breakfast",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"I require a recipe for lunch",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":22,
+            "end": 27,
+            "value": "lunch",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Can you find me a recipe for dinner?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":29,
+            "end": 36,
+            "value": "dinner",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Could you find me a recipe for dinner?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":31,
+            "end": 38,
+            "value": "dinner",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Could you give me a recipe for my lunch please?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":34,
+            "end": 39,
+            "value": "lunch",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Would you give me a recipe for my lunch please?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":34,
+            "end": 39,
+            "value": "lunch",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"What could I have for lunch?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":22,
+            "end": 27,
+            "value": "lunch",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"What could I have for breakfast?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":22,
+            "end": 31,
+            "value": "breakfast",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"What should I have for lunch?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":23,
+            "end": 28,
+            "value": "lunch",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Can you give me a recipe idea for dinner?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":34,
+            "end": 41,
+            "value": "dinner",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Can you give me a recipe idea for lunch?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":34,
+            "end": 39,
+            "value": "lunch",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Can you give me a recipe idea for breakfast?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":34,
+            "end": 43,
+            "value": "breakfast",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Could you give me a recipe idea for dinner?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":36,
+            "end": 43,
+            "value": "dinner",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"I need to eat dinner. Do you know any good recipes?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":14,
+            "end": 21,
+            "value": "dinner",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"I need to eat breakfast. Do you know any good recipes?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":14,
+            "end": 23,
+            "value": "breakfast",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"I need to eat lunch. Do you know any good recipes?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":14,
+            "end": 19,
+            "value": "lunch",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Do you know any good recipes for lunch time?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":33,
+            "end": 37,
+            "value": "lunch",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Do you know any good recipes for breakfast time?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":33,
+            "end": 42,
+            "value": "breakfast",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Do you know any good recipes for dinner time?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":33,
+            "end": 39,
+            "value": "dinner",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"I need a recipe to cook for lunch",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":28,
+            "end": 33,
+            "value": "lunch",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"I need a recipe to cook for breakfast",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":28,
+            "end": 37,
+            "value": "breakfast",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"I need a recipe to cook for dinner",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":28,
+            "end": 35,
+            "value": "dinner",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"What should I cook for dinner tonight?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":23,
+            "end": 30,
+            "value": "dinner",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Help! I don't know what to have for lunch",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":36,
+            "end": 41,
+            "value": "lunch",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Help! I don't know what to have for dinner",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":36,
+            "end": 43,
+            "value": "dinner",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Help! I don't know what to have for breakfast",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":36,
+            "end": 45,
+            "value": "breakfast",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Do you know any good dinner time recipes?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":21,
+            "end": 27,
+            "value": "dinner",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Can you find me a dinner time recipe?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":19,
+            "end": 26,
+            "value": "dinner",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Can you find me something to eat for lunch please?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":37,
+            "end": 42,
+            "value": "lunch",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Can you find me something to eat for breakfast please?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":37,
+            "end": 46,
+            "value": "breakfast",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Can you find me something to eat for dinner please?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":37,
+            "end": 43,
+            "value": "dinner",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Can you find me something tasty to have for lunch please?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":44,
+            "end": 49,
+            "value": "lunch",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Can you find me something tasty to have for breakfast please?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":44,
+            "end": 53,
+            "value": "breakfast",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Can you find me something tasty to have for dinner please?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":44,
+            "end": 50,
+            "value": "dinner",
+            "entity": "recipeType"
+          }
+        ]
+      },
+      {
+        "text":"Can you find me a recipe that takes under 30 minutes?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":36,
+            "end": 52,
+            "value": "under 30 minutes",
+            "entity": "recipeTime"
+          }
+        ]
+      },
+      {
+        "text":"Can you find me a recipe that takes under 20 minutes?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":36,
+            "end": 52,
+            "value": "under 20 minutes",
+            "entity": "recipeTime"
+          }
+        ]
+      },
+      {
+        "text":"Can you find me a recipe that takes under an hour?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":36,
+            "end": 49,
+            "value": "under an hour",
+            "entity": "recipeTime"
+          }
+        ]
+      },
+      {
+        "text":"Can you find me a recipe that takes under 60 minutes?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":36,
+            "end": 52,
+            "value": "under 60 minutes",
+            "entity": "recipeTime"
+          }
+        ]
+      },
+      {
+        "text":"Can you find me a lunch time recipe that takes under 60 minutes?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":18,
+            "end": 22,
+            "value": "lunch",
+            "entity": "recipeType"
+          },
+          {
+            "start":47,
+            "end": 63,
+            "value": "under 60 minutes",
+            "entity": "recipeTime"
+          }
+        ]
+      },
+      {
+        "text":"Do you know any good dinner time recipe that takes under 60 minutes?",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":21,
+            "end": 26,
+            "value": "dinner",
+            "entity": "recipeType"
+          },
+          {
+            "start":51,
+            "end": 67,
+            "value": "under 60 minutes",
+            "entity": "recipeTime"
+          }
+        ]
+      },
+      {
+        "text":"I need a recipe that takes around an hour",
+        "intent":"get_recipe",
+        "entities":[
+          {
+            "start":34,
+            "end": 41,
+            "value": "an hour",
+            "entity": "recipeTime"
+          }
+        ]
+      },
+      {
+        "text":"I like mushrooms",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":6,
+            "end": 15,
+            "value": "mushrooms",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I like spinach",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":7,
+            "end": 14,
+            "value": "spinach",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I don't like mushrooms",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":13,
+            "end": 22,
+            "value": "mushrooms",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I don't like spinach",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":13,
+            "end": 20,
+            "value": "spinach",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I dislike mushrooms",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":10,
+            "end": 19,
+            "value": "mushrooms",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I dislike spinach",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":10,
+            "end": 17,
+            "value": "spinach",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I dislike beans",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":10,
+            "end": 15,
+            "value": "beans",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I like beans",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":6,
+            "end": 11,
+            "value": "beans",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I like pasta",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":6,
+            "end": 11,
+            "value": "pasta",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I dislike pasta",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":10,
+            "end": 15,
+            "value": "pasta",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I dislike radish",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":10,
+            "end": 16,
+            "value": "radish",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I like radish",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":6,
+            "end": 11,
+            "value": "radish",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I like meat",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":6,
+            "end": 10,
+            "value": "meat",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I like beetroot",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":6,
+            "end": 15,
+            "value": "beetroot",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I don't like beetroot",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":13,
+            "end": 21,
+            "value": "beetroot",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I don't like capers",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":13,
+            "end": 19,
+            "value": "capers",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I don't like bananas",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":13,
+            "end": 20,
+            "value": "bananas",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I really like mushrooms",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":13,
+            "end": 22,
+            "value": "mushrooms",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I really like beef",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":14,
+            "end": 18,
+            "value": "beef",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I really like chicken",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":14,
+            "end": 21,
+            "value": "chicken",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I really like beans",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":15,
+            "end": 20,
+            "value": "beans",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"I really like pasta",
+        "intent":"store_preference",
+        "entities":[
+          {
+            "start":14,
+            "end": 20,
+            "value": "pasta",
+            "entity": "ingredientName"
+          }
+        ]
+      },
+      {
+        "text":"What is your privacy policy?",
+        "intent":"recite_privacy_policy",
+        "entities":[]
+      },
+      {
+        "text":"Will my data be private?",
+        "intent":"recite_privacy_policy",
+        "entities":[]
+      },
+      {
+        "text":"Will my data be safe?",
+        "intent":"recite_privacy_policy",
+        "entities":[]
+      },
+      {
+        "text":"What do you do with my data?",
+        "intent":"recite_privacy_policy",
+        "entities":[]
+      },
+      {
+        "text":"What is your policy on data privacy?",
+        "intent":"recite_privacy_policy",
+        "entities":[]
+      },
+      {
+        "text":"Could you tell me your data privacy policy again?",
+        "intent":"recite_privacy_policy",
+        "entities":[]
+      },
+      {
+        "text":"Who are you?",
+        "intent":"introduce_yourself",
+        "entities":[]
+      },
+      {
+        "text":"What do you do?",
+        "intent":"introduce_yourself",
+        "entities":[]
+      },
+      {
+        "text":"What is Vegabot?",
+        "intent":"introduce_yourself",
+        "entities":[]
+      },
+      {
+        "text":"Who is Vegabot?",
+        "intent":"introduce_yourself",
+        "entities":[]
+      },
+      {
+        "text":"What is Vegabot?",
+        "intent":"introduce_yourself",
+        "entities":[]
+      },
+      {
+        "text":"What can I ask you?",
+        "intent":"introduce_yourself",
+        "entities":[]
+      },
+      {
+        "text":"What can you tell me?",
+        "intent":"introduce_yourself",
+        "entities":[]
+      },
+      {
+        "text":"What do I use this app for?",
+        "intent":"introduce_yourself",
+        "entities":[]
+      },
+      {
+        "text":"What can I ask you about?",
+        "intent":"introduce_yourself",
+        "entities":[]
+      },
+      {
+        "text":"What do I use Vegabot for?",
+        "intent":"introduce_yourself",
+        "entities":[]
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms":[],
+    "lookup_tables": [
+      {
+          "name": "ingredientName",
+          "elements": "data/food.txt"
+      },
+      {
+          "name": "recipeType",
+          "elements": "data/recipes.txt"
+      }
+    ]
+  }
+
+}

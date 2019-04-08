@@ -1,0 +1,32 @@
+slots:
+  recipe:
+    type: text
+  ingredient:
+    type: text
+  mealtime:
+    type: text
+
+intents:
+  - greeting
+  - get_recipe
+  - get_ingredient_info
+
+entities:
+  - recipe
+  - ingredient
+  - mealtime
+
+templates:
+  utter_greet:
+    - "Hello. How are you doing today?"
+  utter_ask_recipe:
+    - "Do you want a recipe for tonight?"
+  utter_anything_else:
+    - "Do you need any other information?"
+
+actions:
+  - utter_greet
+  - utter_ask_recipe
+  - utter_anything_else
+  - customactions.actions.get_recipe
+  - get_ingredient_info

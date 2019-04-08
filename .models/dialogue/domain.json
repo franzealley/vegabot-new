@@ -1,0 +1,21 @@
+{
+  "states": [
+    "intent_get_ingredient_info",
+    "intent_get_recipe",
+    "intent_greeting",
+    "entity_recipe",
+    "entity_ingredient",
+    "entity_mealtime",
+    "slot_ingredient_0",
+    "slot_mealtime_0",
+    "slot_recipe_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_utter_ask_recipe",
+    "prev_utter_anything_else",
+    "prev_customactions.actions.get_recipe",
+    "prev_get_ingredient_info"
+  ]
+}
