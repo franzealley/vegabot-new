@@ -30,7 +30,6 @@ cffi==1.12.1
 chardet==3.0.4
 Click==7.0
 cloudpickle==0.8.0
-clyent==1.2.2
 colorama==0.4.1
 coloredlogs==10.0
 colorhash==1.0.2
