@@ -4,6 +4,8 @@ from flask import Flask, request
 from pymessenger2.bot import Bot
 import re
 
+import os
+
 from rasa_core.agent import Agent
 from rasa_core.interpreter import RasaNLUInterpreter
 import os
@@ -25,8 +27,12 @@ MODEL_PATH = "models/dialogue/"
 # print(agent)
 
 app = Flask(__name__)
-ACCESS_TOKEN = 'EAAEJrZBTxYqoBABc0lXzaZBqai7M6CpZC9CZCgkSYqX6SmpDivG7T1rIbHn88ft7pe2iguWWl1o71hoU87DqblFZAgKzqzReA66SnbZAhGuhFVMb3gPTzLqmmrkonhtlJlANjJbNbBbZB49uc9ldNGrkApG2NEZBXguyIGOMcQD6GwZDZD'
-VERIFY_TOKEN = 'VERIFY_TOKEN'
+#ACCESS_TOKEN = 'EAAEJrZBTxYqoBABc0lXzaZBqai7M6CpZC9CZCgkSYqX6SmpDivG7T1rIbHn88ft7pe2iguWWl1o71hoU87DqblFZAgKzqzReA66SnbZAhGuhFVMb3gPTzLqmmrkonhtlJlANjJbNbBbZB49uc9ldNGrkApG2NEZBXguyIGOMcQD6GwZDZD'
+#VERIFY_TOKEN = 'VERIFY_TOKEN'
+
+ACCESS_TOKEN = os.eviron['ACCESS_TOKEN']
+VERIFY_TOKEN = os.environ['VERIFY_TOKEN']
+
 bot = Bot(ACCESS_TOKEN)
 
 import pymysql
